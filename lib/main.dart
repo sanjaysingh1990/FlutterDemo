@@ -3,13 +3,15 @@ import 'package:flutterbottomnavbar/DrawerDemo.dart';
 import 'package:flutterbottomnavbar/FlutterNotificationDemo.dart';
 import 'package:flutterbottomnavbar/FlutterSharingDemo.dart';
 import 'package:flutterbottomnavbar/FlutterTutorialDemo.dart';
+import 'package:flutterbottomnavbar/GridDemo.dart';
 import 'package:flutterbottomnavbar/MapViewDemo.dart';
+import 'package:flutterbottomnavbar/MusicList.dart';
 import 'package:flutterbottomnavbar/SimplePermissionDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: new MapDemo(),
+    home: new MusicList(),
   ));
 }
 
